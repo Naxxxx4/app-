@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Preguntas y Respuestas</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Haz una pregunta</h1>
+    <form id="questionForm">
+      <input type="text" id="questionInput" placeholder="Escribe tu pregunta..." required />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <h2>Preguntas de usuarios</h2>
+    <ul id="questionList"></ul>
+
+    <h2>Panel Privado (solo tú ves esto)</h2>
+    <ul id="adminPanel"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
